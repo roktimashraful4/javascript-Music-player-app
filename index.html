@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player </title>
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+     <div class="main_div">
+         <div class="music_container">
+             <h2 id="title"> Let me love you</h2>
+             <h3 id="artist">Justin Bieber </h3>
+             <div class="img_container">
+                 <img  src="./image/Justin-Bieber-Let-Me-Love-You.png" alt="album" id="album">
+
+             </div>
+             <audio src="./music/let-me-love-you.mp3" ></audio>
+             <!-- Controls -->
+             <div class="music_controls">
+                 <div id="pre">
+                    <i class="fa fa-backward"  title='previous'></i>
+                 </div>
+                 <div class=" main_button" id="play">
+                    <i class="fa fa-play" id="playbtn" title="play"></i>
+                 </div>
+                
+                <div id="next"><i class="fa fa-forward"  title="Next"></i></div>
+                
+             </div>
+           <!--  <div id="sound">
+                <i class="fas fa-volume-up"></i>
+                <input type="range" min="0" max="1" step="0.1">
+             </div>
+             -->
+         </div>
+     </div>
+     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+     <script src="./js/fontaswome.js"></script>
+     <script src="./js/main.js"></script>
+    </body>
+</html>
